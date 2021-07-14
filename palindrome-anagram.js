@@ -17,8 +17,7 @@ function isPalindromeAnagram(str) {
       oddCount++
     }
   }
-  console.log(chars)
-  console.log(oddCount)
+  
   if (oddCount > 1) return false;
   return true;
 }
